@@ -75,10 +75,3 @@ The application will be available at `http://localhost:3000`
 4. Push to the branch: `git push origin feature/your-feature`
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For support, please email support@caseconnect.com or raise an issue in the repository.
