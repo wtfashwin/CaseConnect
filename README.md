@@ -18,6 +18,10 @@ The interface is being adapted for lawyer consultations, while the database, act
 
 Next.js 15, React 19, Tailwind CSS 4, Prisma, PostgreSQL, Clerk, and Vonage Video API.
 
+## How it works
+
+Clerk identifies the signed-in user. Next.js server actions use Prisma to read availability, reserve appointments, and update the credit balance. A booked appointment can open a Vonage video session. Verification and payout requests have separate administrator screens.
+
 ## Getting started
 
 The application lives in `main/`. Use Node.js and npm compatible with its Next.js dependencies, a development PostgreSQL database, and Clerk/Vonage accounts.
