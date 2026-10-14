@@ -47,7 +47,7 @@ Installation generates the Prisma client through the existing `postinstall` scri
 
 ## Local workflow
 
-Sign in through Clerk, complete onboarding, and explore the professional directory and appointment pages. Appointment booking requires a verified professional, configured availability, enough credits, and working Vonage credentials. Paid credit plans use the identifiers `free_user`, `standard`, and `premium` in Clerk. Admin role provisioning and external account setup must be completed separately.
+Sign in through Clerk, complete onboarding, and explore the professional directory and appointment pages. Appointment booking requires a verified professional, configured availability, enough credits, and working Vonage credentials. Clerk credit plans use the identifiers `free_user`, `standard`, and `premium`. Admin role provisioning and external account setup must be completed separately.
 
 Payouts are recorded as requests for an administrator to process; the source does not send PayPal transfers. Clerk and Vonage service usage may incur charges.
 
